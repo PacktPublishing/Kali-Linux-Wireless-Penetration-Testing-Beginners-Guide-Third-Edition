@@ -1,0 +1,13 @@
+import subprocess
+import datetime
+results = open("results.txt", "a")
+while 1:
+	cmd = subprocess.check_output(["tshark –n –i wlan0mon –T fields -e wlan.sa –e wlan.ssid –c 100"], shell=True)
+	split = cmd.split("\n")
+	for value in split[:-1]:
+		if value.strip():
+			splitvalue = value.split("\t")
+			MAC = str(splitvalue[0])
+			SSID = str(splitvalue[1])
+			time = str(datetime.datetime.now())
+			results.write(MAC+" "+SSID+" "+time+"\r\n")

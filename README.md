@@ -39,5 +39,3 @@ From a prerequisite perspective, you should be aware of the basics of wireless n
 
 * [Kali Linux 2017 Wireless Penetration Testing for Beginners [Video]](https://www.packtpub.com/networking-and-servers/kali-linux-2017-wireless-penetration-testing-beginners-video?utm_source=github&utm_medium=repository&utm_campaign=9781788394055)
 
-### Suggestions and Feedback
-[Click here](https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform) if you have any feedback or suggestions.
